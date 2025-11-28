@@ -12,14 +12,33 @@ Find the position of the first character that causes Santa to enter the basement
 from advent_of_code.utils.file import get_contents, get_raw_contents
 
 def part_1():
-    data = get_contents("data/2015/day_01.data")
-    # Solution for part 1
-    pass
+    data = get_contents("data/2015/day_01.data")[0]
+    
+    floor = 0
+
+    for c in data:
+        match c:
+            case '(':
+                floor += 1
+            case ')':
+                floor -= 1
+    
+    print(floor)
 
 def part_2():
-    data = get_contents("data/2015/day_01.data")
-    # Solution for part 2
-    pass
+    data = get_contents("data/2015/day_01.data")[0]
+    
+    floor = 0
+
+    for i, c in enumerate(data, 1):
+        match c:
+            case '(':
+                floor += 1
+            case ')':
+                floor -= 1
+                if floor < 0:
+                    print(i)
+                    break
 
 if __name__ == "__main__":
     print("Part 1:", part_1())
