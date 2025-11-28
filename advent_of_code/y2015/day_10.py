@@ -1,5 +1,6 @@
 """
 Day 10: Elves Look, Elves Say
+https://adventofcode.com/2015/day/10
 
 Generate a "look-and-say" sequence iteratively. Starting with an initial number, 
 each subsequent step describes the previous number by counting consecutive digit runs. 

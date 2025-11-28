@@ -1,5 +1,6 @@
 """
 Day 14: Reindeer Olympics
+https://adventofcode.com/2015/day/14
 
 Calculate the distance traveled by reindeer in a race after 2503 seconds. Reindeer 
 alternate between flying at top speed and resting, with each state lasting whole seconds. 

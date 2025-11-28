@@ -1,5 +1,6 @@
 """
 Day 5: Doesn't He Have Intern-Elves For This?
+https://adventofcode.com/2015/day/5
 
 Determine which strings are "nice" based on three rules:
 1. Contains at least three vowels (a, e, i, o, u)

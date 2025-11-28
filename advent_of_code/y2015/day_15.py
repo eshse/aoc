@@ -1,5 +1,6 @@
 """
 Day 15: Science for Hungry People
+https://adventofcode.com/2015/day/15
 
 Create the highest-scoring cookie by mixing ingredients with specific properties 
 (capacity, durability, flavor, texture, calories). Find the optimal combination 

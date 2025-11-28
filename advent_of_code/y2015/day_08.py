@@ -1,5 +1,6 @@
 """
 Day 8: Matchsticks
+https://adventofcode.com/2015/day/8
 
 Calculate the difference between the number of characters in the code representation 
 of string literals and the actual characters in memory. Handle escape sequences like 

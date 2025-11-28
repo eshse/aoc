@@ -1,5 +1,6 @@
 """
 Day 24: It Hangs in the Balance
+https://adventofcode.com/2015/day/24
 
 Santa needs to balance his sleigh by dividing packages into three equal-weight groups. 
 The first group (passenger compartment) must have the fewest possible packages, and 

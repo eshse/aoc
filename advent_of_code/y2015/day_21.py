@@ -1,5 +1,6 @@
 """
 Day 21: RPG Simulator 20XX
+https://adventofcode.com/2015/day/21
 
 Determine the least amount of gold needed to win a turn-based RPG battle. Players 
 must strategically purchase weapons, optional armor, and rings from a shop to defeat 

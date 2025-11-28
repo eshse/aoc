@@ -1,5 +1,6 @@
 """
 Day 3: Perfectly Spherical Houses in a Vacuum
+https://adventofcode.com/2015/day/3
 
 Santa delivers presents on a 2D grid, starting at his initial location. He moves north (^), 
 south (v), east (>), or west (<), delivering a present at each new house. Count how many 

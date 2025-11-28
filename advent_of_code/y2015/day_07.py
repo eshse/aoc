@@ -1,5 +1,6 @@
 """
 Day 7: Some Assembly Required
+https://adventofcode.com/2015/day/7
 
 Simulate a circuit with bitwise logic gates. Determine the signal ultimately provided to 
 wire 'a' by processing wire connection and gate operation instructions, using 16-bit 

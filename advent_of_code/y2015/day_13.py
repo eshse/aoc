@@ -1,5 +1,6 @@
 """
 Day 13: Knights of the Dinner Table
+https://adventofcode.com/2015/day/13
 
 Find the optimal seating arrangement for a dinner party that maximizes total happiness. 
 Guests have specific happiness gains or losses based on who sits next to them around 

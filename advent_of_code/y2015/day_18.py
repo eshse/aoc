@@ -1,5 +1,6 @@
 """
 Day 18: Like a GIF For Your Yard
+https://adventofcode.com/2015/day/18
 
 Animate a 100x100 grid of lights where each light's next state depends on its current 
 state and the number of adjacent lights that are on. Lights follow specific rules: 

@@ -1,5 +1,6 @@
 """
 Day 4: The Ideal Stocking Stuffer
+https://adventofcode.com/2015/day/4
 
 Santa needs to "mine" AdventCoins by finding the lowest positive number that, when 
 appended to a secret key, produces an MD5 hash starting with at least five zeroes.

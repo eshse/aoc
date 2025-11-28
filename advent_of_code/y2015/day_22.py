@@ -1,5 +1,6 @@
 """
 Day 22: Wizard Simulator 20XX
+https://adventofcode.com/2015/day/22
 
 Play as a wizard fighting a boss, using magic spells that cost mana. Defeat the boss 
 while spending the least amount of mana possible. Choose strategically from spells 

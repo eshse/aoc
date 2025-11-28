@@ -1,5 +1,6 @@
 """
 Day 6: Probably a Fire Hazard
+https://adventofcode.com/2015/day/6
 
 Manage a 1000x1000 grid of lights with instructions to "turn on", "turn off", or "toggle" 
 lights in specific rectangular ranges. Determine how many lights are lit after following 

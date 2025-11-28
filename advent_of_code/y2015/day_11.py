@@ -1,5 +1,6 @@
 """
 Day 11: Corporate Policy
+https://adventofcode.com/2015/day/11
 
 Santa needs a new password that meets specific criteria:
 - Exactly 8 lowercase letters

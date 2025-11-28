@@ -1,5 +1,6 @@
 """
 Day 19: Medicine for Rudolph
+https://adventofcode.com/2015/day/19
 
 Calibrate a molecular replacement machine by determining how many distinct molecules 
 can be created from a starting molecule using a set of predefined replacement rules. 

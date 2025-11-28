@@ -1,5 +1,6 @@
 """
 Day 23: Opening the Turing Lock
+https://adventofcode.com/2015/day/23
 
 Simulate a simple computer with two registers (a and b) and six instructions. 
 Determine the value in register 'b' when the program finishes executing by following 

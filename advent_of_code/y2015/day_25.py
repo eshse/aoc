@@ -1,5 +1,6 @@
 """
 Day 25: Let It Snow
+https://adventofcode.com/2015/day/25
 
 Generate codes on an infinite paper grid, filled diagonally. Given a specific algorithm 
 (starting with 20151125, multiplying by 252533, and taking remainder by 33554393), 

@@ -1,7 +1,7 @@
-from advent_of_code.y2015.day_01 import part_2
+from advent_of_code.y2015.day_02 import part_1
 
 def main():
-    part_2()
+    part_1()
 
 if __name__ == "__main__":
     main()
