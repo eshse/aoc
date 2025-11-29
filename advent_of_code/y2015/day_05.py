@@ -15,10 +15,40 @@ New rules for "nice" strings:
 
 from advent_of_code.utils.file import get_contents, get_raw_contents
 
+def _three_vowels(string: str) -> bool:
+    return sum(map(string.count, 'aeiou')) >= 3
+
+
+def _consecutive_letter(string: str) -> bool:
+    prev_letter = None
+
+    for c in string:
+        if c == prev_letter:
+            return True
+        
+        prev_letter = c
+
+def _no_forbidden_substrings(string: str) -> bool:
+    forbidden_substrings = ['ab', 'cd', 'pq', 'xy']
+
+    for substring in forbidden_substrings:
+        if substring in string:
+            return False
+    
+    return True
+
+def _is_nice(string: str) -> bool:
+    return all((_three_vowels(string), _consecutive_letter(string), _no_forbidden_substrings(string)))
+
 def part_1():
     data = get_contents("data/2015/day_05.data")
-    # Solution for part 1
-    pass
+    
+    nice_strings = 0
+
+    for string in data:
+        nice_strings += 1 if _is_nice(string) else 0
+
+    print(nice_strings)
 
 def part_2():
     data = get_contents("data/2015/day_05.data")
