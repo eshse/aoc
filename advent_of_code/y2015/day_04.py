@@ -9,17 +9,29 @@ Part 2:
 Find the lowest positive number that produces an MD5 hash starting with at least six zeroes.
 """
 
-from advent_of_code.utils.file import get_contents, get_raw_contents
+import hashlib
+
+key = "bgvyzdsv"
+
+def mine(key, difficulty):
+    nonce = 0
+    
+    while True:
+        key_with_nonce = key + str(nonce)
+        hash = hashlib.md5(key_with_nonce.encode()).hexdigest()
+        
+        if hash.startswith('0' * difficulty):
+            return nonce
+
+        nonce += 1
 
 def part_1():
-    data = get_contents("data/2015/day_04.data")
-    # Solution for part 1
-    pass
+    print(mine(key, 5))
+
 
 def part_2():
-    data = get_contents("data/2015/day_04.data")
-    # Solution for part 2
-    pass
+    print(mine(key, 6))
+
 
 if __name__ == "__main__":
     print("Part 1:", part_1())

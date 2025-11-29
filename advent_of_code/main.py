@@ -1,4 +1,4 @@
-from advent_of_code.y2015.day_03 import part_2
+from advent_of_code.y2015.day_04 import part_2
 
 def main():
     part_2()
