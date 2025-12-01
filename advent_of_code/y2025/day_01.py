@@ -13,7 +13,6 @@ class Rotation(Enum):
 
 @dataclass
 class SafeDial:
-    current_position = 50
     ended_at_zero = 0
     times_at_zero = 0
 
@@ -49,7 +48,7 @@ class SafeDial:
 
 def parse_rotation(rotation_string: str):
     rotation = rotation_string[0]
-    distance =int(rotation_string[1:])
+    distance = int(rotation_string[1:])
 
     if rotation == "R":
         return (Rotation.RIGHT, distance)
